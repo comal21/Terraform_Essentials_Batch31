@@ -160,7 +160,7 @@ Once verified, `Exit` from Instance.
 ```
 vi instance.tf 
 ```
-Add the given lines, by pressing "INSERT" The first block will be already present in the file. But, replace the entire code and update your `AvailabilityZone,` `YourName` in `AWS Instance` and `EBS Volume` both.
+Add the given lines, by pressing "INSERT" The first block will be already present in the file. Modify the `AvailabilityZone,` `YourName` in `AWS Instance` and `EBS Volume` 
 ```
 
 resource "aws_ebs_volume" "ebs-volume-1" {
